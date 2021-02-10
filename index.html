@@ -22,11 +22,14 @@
             <!--Fontawesome ICON-->
             <link rel="stylesheet" href="css/font-awesome.min.css">
 
+            <!--BX Slider JS-->
+            <link rel="stylesheet" href="css/jquery.bxslider.css">
+
             </head>
             <body>
 
             <!--Header-->
-            <header class="header">
+            <header  id="home" class="header">
 
                 <!--Navigation-->
 
@@ -69,7 +72,7 @@
 
                 <div class="header-overlay">
 
-                    <div class="container">
+                    <div class="container header-container">
 
 
                         <div class="row">
@@ -508,22 +511,38 @@
 
                 <div class="screen-slider">
 
-                    <div class="carousel">
+                    <div class="container">
 
-                        <div class="item">
-                            <img src="./images/screen-01.png" width="60p" height="60" alt="This is Screen">
-                        </div>
+                        <div class="row">
 
-                        <div class="item">
-                            <img src="./images/screen-02.png" width="60" height="60" alt="This is Screen">
-                        </div>
+                            <div class="bxslider">
 
-                        <div class="item">
-                            <img src="./images/screen-03.png" width="60" height="60" alt="This is Screen">
-                        </div>
+                                <div class="item">
+                                    <img src="./images/screen-01.png"  alt="This is Screen">
+                                </div>
 
-                        <div class="item">
-                            <img src="./images/screen-04.png" width="60" height="60" alt="This is Screen">
+                                <div class="item">
+                                    <img src="./images/screen-02.png"  alt="This is Screen">
+                                </div>
+
+                                <div class="item">
+                                    <img src="./images/screen-03.png"  alt="This is Screen">
+                                </div>
+
+                                <div class="item">
+                                    <img src="./images/screen-04.png"  alt="This is Screen">
+                                </div>
+
+                                <div class="item">
+                                    <img src="./images/screen-01.png"  alt="This is Screen">
+                                </div>
+
+                                <div class="item">
+                                    <img src="./images/screen-02.png"  alt="This is Screen">
+                                </div>
+
+                            </div>
+
                         </div>
 
                     </div>
@@ -563,7 +582,7 @@
 
                                 <div class="counter-item">
                                     <div><i class="fa fa-heart-o"></i></div>
-                                    <h2><span class="counter-num"> 3500 </span><span>+</span></h2>
+                                    <h2><span class="counter-num"> 199 </span><span>+</span></h2>
                                     <p>Likes</p>
                                 </div>
 
@@ -759,7 +778,7 @@
 
                         <div class="col-md-6">
                             <div class="scroll-top">
-                                <a href="#"><i class="fa fa-angle-up"></i></a>
+                                <a href="#" id="scroll-to-top"><i class="fa fa-angle-up"></i></a>
                             </div>
                         </div>
 
@@ -772,6 +791,12 @@
             <!--Bootstrap JavaScript-->
             <script src="js/jquery.js"></script>
             <script src="js/bootstrap.min.js"></script>
+
+            <!--JavaScript-->
+            <script src="js/custom.js"></script>
+
+            <!--BX Slider JS-->
+            <script src="js/jquery.bxslider.min.js"></script>
 
 
             </body>
